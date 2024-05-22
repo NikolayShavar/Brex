@@ -11,14 +11,28 @@
                 padding-bottom: 23px
                 max-width: 494px
                 font-size: 40px
+                +media($sm)
+                    padding-top: 330px
+                    font-size: 20px
+                    text-align: center
 
 
             &-btns
                 display: flex
                 gap: 8px
                 padding-bottom: 63px
+                +media($sm)
+                    display: none
+
                 .main-btn
                     width: 160px
                     height: 48px
                 .account
                     border: solid 1px #0000001A
+        &__right
+            +media($md)
+                position: absolute
+                right: 0
+                bottom: 0
+                z-index: -1
+                opacity: 30%

@@ -1,0 +1,30 @@
+.rate
+    display: flex
+    gap: 8px
+    padding-top: 16px
+    text-align: center
+    
+    +media($md)
+        flex-direction: column
+
+    &__left
+        color: #fff
+        max-width: 580px
+        background-image: url(../images/solution-left.avif)
+        padding: 0 15px
+
+    &__right
+        max-width: 580px
+        background-image: url(../images/solution-right.avif)
+        padding: 0 15px
+
+    &-title 
+        padding-top: 48px
+        font-size: 32px
+
+    &-text 
+        padding-top: 10px
+        padding-bottom: 22px
+        font-size: 16px
+        max-width: 450px
+        margin: 0 auto

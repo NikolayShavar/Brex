@@ -1,0 +1,26 @@
+.customers
+    &-title 
+        margin: 0 uato
+        font-size: 40px
+        line-height: 52px
+        text-align: center
+        padding-bottom: 70px
+    &-box 
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        gap: 64px
+        justify-items: center
+        +media($lg)
+            gap: 15px
+        +media($md)
+            grid-template-columns: 1fr
+
+    &-squares
+        margin-top: 81px
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        +media($lg)
+            grid-template-columns: 1fr 1fr
+            justify-items: center
+        +media($md)
+            grid-template-columns: 1fr

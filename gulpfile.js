@@ -88,8 +88,8 @@ function watching() {            //СЛЕДИЛКА и Живой сервер
       baseDir: "app/"
     }
   });
-  watch(['src/components/*.pug','src/blocks/**/*.pug','src/blocks_s/**/*.pug','src/pages/*.pug'], pughtml)
-  watch(['src/sass/*.sass','src/blocks/**/*.sass','src/blocks_s/**/*.sass'], styles)
+  watch(['src/components/*.pug','src/blocks/**/*.pug','src/blocks_s/**/*.pug','src/blocks_xs/**/*.pug','src/pages/*.pug'], pughtml)
+  watch(['src/sass/*.sass','src/blocks/**/*.sass','src/blocks_s/**/*.sass','src/blocks_xs/**/*.sass'], styles)
   watch(['src/images'], images)
   watch(['src/images/*.svg'], sprite)
   watch(['src/js/main.js', 'src/blocks/**/*.js'], scripts)

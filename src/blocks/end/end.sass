@@ -6,13 +6,12 @@
         padding-top: 122px
         display: flex
         +media($md)
-        padding-top: 20px
+            padding-top: 20px
         
         &__logo
             margin-right: 198px
             +media($md)
                 display: none
-
 
         a
             text-decoration: none
@@ -48,3 +47,40 @@
 
 //-----------------------------------------
 
+.end-inner__links 
+    display: flex
+    padding:  100px 0 130px 48px
+    +media($sm)
+        padding:  20px 0 20px 10px
+    .end-links
+        display: flex
+        gap: 24px
+        +media($sm)
+            gap: 5px
+        .end-link
+            svg
+                max-width: 16px
+                max-height: 16px
+
+    .end-biglinks
+        display: flex
+        padding-left: 192px
+        +media($sm)
+            padding-left: 10px
+        .end-biglink
+            svg
+                max-width: 81px
+                max-height: 24px
+            img
+                max-width: 81px
+                max-height: 24px
+                justify-content: center
+
+.lot-of-text 
+    display: flex
+    flex-direction: column
+    gap: 9px
+    font-size: 12px
+    line-height: 16px
+    .big
+        font-weight: bold
